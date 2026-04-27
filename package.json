@@ -9,12 +9,12 @@
     "displayName": "Duplicate Button"
   },
   "peerDependencies": {
-    "@strapi/design-system": "^2.0.0-rc.10",
-    "@strapi/icons": "^2.0.0-rc.10",
-    "@strapi/strapi": "^5.0.0-rc.17",
-    "@strapi/utils": "^5.0.0-rc.17",
-    "react-intl": "6.6.2",
-    "react-router-dom": "6.22.3"
+    "@strapi/design-system": "^2.0.0",
+    "@strapi/icons": "^2.0.0",
+    "@strapi/strapi": "^5.0.0",
+    "@strapi/utils": "^5.0.0",
+    "react-intl": "^6.6.2",
+    "react-router-dom": "^6.22.3"
   },
   "author": {
     "name": "Johannes Lauter"
