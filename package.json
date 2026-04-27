@@ -28,9 +28,9 @@
   "exports": {
     "./strapi-admin": {
       "source": "./admin/src/index.js",
-      "import": "./admin/dist/index.mjs",
-      "require": "./admin/dist/index.js",
-      "default": "./admin/dist/index.js"
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
     },
     "./package.json": "./package.json"
   },
