@@ -14,7 +14,8 @@
     "@strapi/strapi": "^5.0.0",
     "@strapi/utils": "^5.0.0",
     "react-intl": "^6.6.2",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "@strapi/sdk-plugin": "^5.4.0"
   },
   "author": {
     "name": "Johannes Lauter"
@@ -34,7 +35,12 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "rollup -c",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "test:ts:front": "run -T tsc -p admin/tsconfig.json",
+    "test:ts:back": "run -T tsc -p server/tsconfig.json",
+    "build": "strapi-plugin build",
     "prepublish": "npm run build"
   },
   "engines": {
@@ -46,6 +52,7 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-dynamic-import-vars": "^2.1.2",
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3"
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@strapi/sdk-plugin": "^5.4.0"
   }
 }
